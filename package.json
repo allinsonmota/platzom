@@ -1,0 +1,28 @@
+{
+  "name": "@allinsonmota/platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://allinsonmota@bitbucket.org/allinsonmota/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript"
+  ],
+  "author": "Allinson Mota <allinsonmota@gmail.com> (https://twitter.com/allinsonmota)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0"
+  }
+}
